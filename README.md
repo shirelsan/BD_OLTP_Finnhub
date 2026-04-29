@@ -2,7 +2,7 @@
 
 ## 1. Team Details
 * ID1: 322328824 - שיראל בודנהיימר 
-* ID2: [תעודת זהות של שותפתך] - תהילה בן דוד
+* ID2: 314692195 - תהילה בן דוד
 * Team: S&T
 * Date: 2026-04-29
 * Git Repository: https://github.com/shirelsan/BD_OLTP_Finnhub.git
