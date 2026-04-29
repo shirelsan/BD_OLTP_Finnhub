@@ -1,11 +1,11 @@
 # Real-Time Stock Market Data Processor
 
 ## 1. Team Details
-**# ID1: 322328824 - שיראל בודנהיימר 
-# ID2: [תעודת זהות של שותפתך] - תהילה בן דוד
-# Team: S&T
-# Date: 2026-04-29
-# Git Repository: https://github.com/shirelsan/BD_OLTP_Finnhub.git
+* ID1: 322328824 - שיראל בודנהיימר 
+* ID2: [תעודת זהות של שותפתך] - תהילה בן דוד
+* Team: S&T
+* Date: 2026-04-29
+* Git Repository: https://github.com/shirelsan/BD_OLTP_Finnhub.git
 
 ## How to Run
 # 1. Run finnhub stream initializer and observer (collect data for 1 hour):
