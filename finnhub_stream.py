@@ -2,7 +2,6 @@ import websocket
 import json
 import logging
 
-# הכניסי כאן את מפתח ה-API שלך
 API_KEY = "d7p31ihr01qr68pbh6fgd7p31ihr01qr68pbh6g0" 
 
 TICKERS = ["AAPL", "MSFT", "AMZN", "GOOGL", "META", "TSLA", "NVDA", "NFLX", "INTC", "AMD"]
@@ -22,7 +21,7 @@ def on_close(ws, close_status_code, close_msg):
 
 def on_open(ws):
     print("Connection Opened. Subscribing to tickers...")
-    # כתיבת שורת החיבור בדיוק כמו בדוגמה בתרגיל
+    
     with open(OUTPUT_FILE, "a") as f:
         f.write("Websocket connected\n")
         
@@ -31,7 +30,6 @@ def on_open(ws):
         ws.send(json.dumps(subscribe_msg))
 
 if __name__ == "__main__":
-    # הגדרת מערכת הלוגים כדי שתכתוב את ה-Trace (ההדרים) ישירות לקובץ
     logger = logging.getLogger('websocket')
     logger.setLevel(logging.DEBUG)
     
